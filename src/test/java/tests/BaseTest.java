@@ -1,5 +1,6 @@
 package tests;
 
+import api_tests.BaseApiTest;
 import models.Project;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -38,9 +39,9 @@ public abstract class BaseTest {
     @BeforeClass(alwaysRun = true)
     public void setUp(@Optional("chrome") String browserName, ITestContext context) throws Exception {
         if (browserName.equals("chrome")) {
-            ChromeOptions options = new ChromeOptions();
-            options.setBrowserVersion("116.0.5845.110");
-            driver = new ChromeDriver(options);
+//            ChromeOptions options = new ChromeOptions();
+//            options.setBrowserVersion("116.0.5845.110");
+            driver = new ChromeDriver();
         } else if (browserName.equals("firefox")) {
             driver = new FirefoxDriver();
         } else {
@@ -75,17 +76,17 @@ public abstract class BaseTest {
         ((JavascriptExecutor) driver).executeScript(String.format("window.localStorage.clear();"));
         ((JavascriptExecutor) driver).executeScript(String.format("window.sessionStorage.clear();"));
     }
-    @BeforeSuite(alwaysRun = true)
-    public void createNewProject(){
-        Project project = TestDataGenerator.positiveAddProjectGeneration();
-        loginPage.openPage()
-                .isPageOpened()
-                .logIn(EMAIL, PASSWORD);
-        projectsPage.clickCreateNewProjectButton();
-        createNewProjectPage.isPageOpened()
-                .fillingOutProjectForm(project);
-        createNewProjectPage.clickOnPrivateRadioButton();
-        createNewProjectPage.clickOnProjectButton();
-        createNewProjectPage.clickAllProjectsButton();
-    }
+//    @BeforeTest(alwaysRun = true)
+//    public void createNewProject(){
+//        Project project = TestDataGenerator.positiveAddProjectGeneration();
+//        loginPage.openPage()
+//                .isPageOpened()
+//                .logIn(EMAIL, PASSWORD);
+//        projectsPage.clickCreateNewProjectButton();
+//        createNewProjectPage.isPageOpened()
+//                .fillingOutProjectForm(project);
+//        createNewProjectPage.clickOnPrivateRadioButton();
+//        createNewProjectPage.clickOnProjectButton();
+//        createNewProjectPage.clickAllProjectsButton();
+//    }
 }

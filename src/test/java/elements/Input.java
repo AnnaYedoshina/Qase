@@ -22,4 +22,7 @@ public class Input extends BaseElement {
         log.info(String.format("entering the input value: %s", inputValue));
         input.sendKeys(inputValue);
     }
+
+
+
 }

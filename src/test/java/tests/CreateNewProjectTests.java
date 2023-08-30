@@ -26,8 +26,7 @@ public class CreateNewProjectTests extends BaseTest {
     @Severity(SeverityLevel.CRITICAL)
     public void createNewProjectPositiveTest() {
         Project actualProject = TestDataGenerator.positiveAddProjectGeneration();
-        createNewProjectPage.isPageOpened()
-                .fillingOutProjectForm(actualProject);
+        createNewProjectPage.fillingOutProjectForm(actualProject);
         createNewProjectPage.clickOnPrivateRadioButton();
         createNewProjectPage.clickOnProjectButton();
         projectsRepositoryPage.clickSettingsButton();
@@ -41,8 +40,7 @@ public class CreateNewProjectTests extends BaseTest {
     @Severity(SeverityLevel.CRITICAL)
     public void createNewProjectNegativeTest() {
         Project actualProject = TestDataGenerator.negativeAddProjectGeneration();
-        createNewProjectPage.isPageOpened()
-                .fillingOutProjectForm(actualProject);
+        createNewProjectPage.fillingOutProjectForm(actualProject);
         createNewProjectPage.clickOnPrivateRadioButton();
         createNewProjectPage.clickOnProjectButton();
         Assert.assertTrue(createNewProjectPage.createProjectFormIsDisplayed());

@@ -11,7 +11,6 @@ public class BaseApiTest {
     public final static String PROJECT_CODE = "QAT";
     public final static String PROJECT_DESCRIPTION = "Api tests for Diploma";
 
-
     @BeforeTest
     public void addProject() {
         QaseProject project = QaseProject.builder()

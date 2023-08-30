@@ -4,65 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eed06052-f6de-47f9-baad-d7141eaa96d8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api_tests/BaseApiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api_tests/DefectApiTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api_tests/TestCaseApiTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/controllers/BaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/controllers/DefectController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/controllers/ProjectController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/controllers/TestCaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/elements/BaseElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/elements/DataPlaceholder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/elements/DataPlaceholderForSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/elements/DropdownForCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/elements/Input.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/enums/AutomationStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/enums/Behavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/enums/DefectSeverity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/enums/IsFlaky.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/enums/Layer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/enums/Priority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/enums/Severity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/enums/Status.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/enums/Type.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/models/Case.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/models/Defect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/models/DefectResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/models/Project.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/models/QaseProject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/models/Suite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/models/TestCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/CreateNewProjectPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/CreateNewTestCasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/CreateSuitePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ProjectSettingsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ProjectsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ProjectsRepositoryPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TestCaseInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/CreateNewProjectTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/CreateNewSuiteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/CreateTestCaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/AllureUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/InvokedListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/PropertyReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/Retry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/TestDataGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/allure.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/suites/regressionTests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/suites/smokeTests.xml" afterDir="false" />
+    <list default="true" id="eed06052-f6de-47f9-baad-d7141eaa96d8" name="Changes" comment="asdf">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/qase.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api_tests/BaseApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api_tests/BaseApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/controllers/DefectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/controllers/DefectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/elements/BaseElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/elements/BaseElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/elements/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/elements/Input.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CreateNewTestCasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CreateNewTestCasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ProjectsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ProjectsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/CreateNewSuiteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/CreateNewSuiteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/CreateTestCaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/CreateTestCaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/TestDataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/TestDataGenerator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,8 +63,16 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.LoginTests.positiveLogInTest">
-    <configuration name="CreateNewProjectTests.createNewProjectPositiveTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="elements" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.CreateNewProjectTests">
+    <configuration name="CreateNewProjectTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Qase" />
       <extension name="coverage">
         <pattern>
@@ -119,16 +82,15 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.CreateNewProjectTests" />
-      <option name="METHOD_NAME" value="createNewProjectPositiveTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateNewProjectTests.createNewProjectPositiveTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="QA24_GitHubProject_Zlobich_Kovnat" />
+    <configuration name="CreateNewSuiteTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Qase" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tests.*" />
@@ -136,8 +98,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.CreateNewProjectTests" />
-      <option name="METHOD_NAME" value="createNewProjectPositiveTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.CreateNewSuiteTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateNewSuiteTest.createNewSuitTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Qase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CreateNewSuiteTest" />
+      <option name="METHOD_NAME" value="createNewSuitTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -145,8 +124,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateTestCaseTest.positiveCreateNewTestCaseTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="QA24_GitHubProject_Zlobich_Kovnat" />
+    <configuration name="CreateNewSuiteTest.editSuitTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Qase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CreateNewSuiteTest" />
+      <option name="METHOD_NAME" value="editSuitTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateTestCaseTest.fileUploadTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Qase" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tests.*" />
@@ -155,43 +152,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.CreateTestCaseTest" />
-      <option name="METHOD_NAME" value="positiveCreateNewTestCaseTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTests.negativeLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Qase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.LoginTests" />
-      <option name="METHOD_NAME" value="negativeLoginTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTests.positiveLogInTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Qase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.LoginTests" />
-      <option name="METHOD_NAME" value="positiveLogInTest" />
+      <option name="METHOD_NAME" value="fileUploadTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -201,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTests.positiveLogInTest" />
-        <item itemvalue="TestNG.LoginTests.negativeLoginTest" />
-        <item itemvalue="TestNG.CreateNewProjectTests.createNewProjectPositiveTest (1)" />
-        <item itemvalue="TestNG.CreateNewProjectTests.createNewProjectPositiveTest" />
-        <item itemvalue="TestNG.CreateTestCaseTest.positiveCreateNewTestCaseTest" />
+        <item itemvalue="TestNG.CreateNewProjectTests" />
+        <item itemvalue="TestNG.CreateNewSuiteTest" />
+        <item itemvalue="TestNG.CreateNewSuiteTest.editSuitTest" />
+        <item itemvalue="TestNG.CreateNewSuiteTest.createNewSuitTest" />
+        <item itemvalue="TestNG.CreateTestCaseTest.fileUploadTest" />
       </list>
     </recent_temporary>
   </component>
@@ -217,11 +178,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693314288667</updated>
-      <workItem from="1693314289707" duration="5125000" />
+      <workItem from="1693314289707" duration="18020000" />
     </task>
+    <task id="LOCAL-00001" summary="asdf">
+      <created>1693323547926</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693323547926</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="asdf" />
+    <option name="LAST_COMMIT_MESSAGE" value="asdf" />
   </component>
 </project>
