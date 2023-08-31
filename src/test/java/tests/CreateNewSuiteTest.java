@@ -4,7 +4,6 @@ import io.qameta.allure.Link;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import jdk.jfr.Description;
-import models.Project;
 import models.Suite;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
@@ -14,15 +13,9 @@ import utils.TestDataGenerator;
 public class CreateNewSuiteTest extends BaseTest {
     @BeforeMethod(alwaysRun = true)
     public void createNewProject() {
-        Project project = TestDataGenerator.positiveAddProjectGeneration();
         loginPage.openPage()
                 .isPageOpened()
                 .logIn(EMAIL, PASSWORD);
-        projectsPage.clickCreateNewProjectButton();
-        createNewProjectPage.fillingOutProjectForm(project);
-        createNewProjectPage.clickOnPrivateRadioButton();
-        createNewProjectPage.clickOnProjectButton();
-        createNewProjectPage.clickAllProjectsButton();
     }
 
     @Test(groups = {"regression"})
