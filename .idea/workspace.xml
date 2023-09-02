@@ -7,9 +7,11 @@
     <list default="true" id="eed06052-f6de-47f9-baad-d7141eaa96d8" name="Changes" comment="asdf">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/api_tests/BaseApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api_tests/BaseApiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/CreateNewSuiteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/CreateNewSuiteTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/CreateTestCaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/CreateTestCaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api_tests/DefectApiTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api_tests/DefectApiTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api_tests/TestCaseApiTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api_tests/TestCaseApiTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/controllers/DefectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/controllers/DefectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CreateNewTestCasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CreateNewTestCasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CreateSuitePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CreateSuitePage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +54,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -63,8 +66,25 @@
       <recent name="elements" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestCaseApiTests">
-    <configuration name="CreateNewSuiteTest.createNewSuitTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.CreateNewProjectTests">
+    <configuration name="CreateNewProjectTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Qase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CreateNewProjectTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateNewSuiteTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Qase" />
       <extension name="coverage">
         <pattern>
@@ -74,8 +94,42 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.CreateNewSuiteTest" />
-      <option name="METHOD_NAME" value="createNewSuitTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateNewSuiteTest.deleteSuitTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Qase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CreateNewSuiteTest" />
+      <option name="METHOD_NAME" value="deleteSuitTest" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateTestCaseTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Qase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CreateTestCaseTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -100,64 +154,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DefectApiTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Qase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="api_tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="api_tests" />
-      <option name="MAIN_CLASS_NAME" value="api_tests.DefectApiTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Qase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.LoginTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestCaseApiTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Qase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="api_tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="api_tests" />
-      <option name="MAIN_CLASS_NAME" value="api_tests.TestCaseApiTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestCaseApiTests" />
-        <item itemvalue="TestNG.DefectApiTests" />
-        <item itemvalue="TestNG.LoginTests" />
-        <item itemvalue="TestNG.CreateNewSuiteTest.createNewSuitTest" />
+        <item itemvalue="TestNG.CreateNewProjectTests" />
         <item itemvalue="TestNG.CreateTestCaseTest.positiveCreateNewTestCaseTest" />
+        <item itemvalue="TestNG.CreateTestCaseTest" />
+        <item itemvalue="TestNG.CreateNewSuiteTest" />
+        <item itemvalue="TestNG.CreateNewSuiteTest.deleteSuitTest" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +172,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693314288667</updated>
-      <workItem from="1693314289707" duration="20268000" />
+      <workItem from="1693314289707" duration="27357000" />
     </task>
     <task id="LOCAL-00001" summary="asdf">
       <created>1693323547926</created>
@@ -185,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693404019040</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="asdf">
+      <created>1693470874788</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693470874788</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

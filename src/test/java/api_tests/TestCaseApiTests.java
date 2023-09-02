@@ -3,7 +3,7 @@ package api_tests;
 import controllers.TestCaseController;
 import io.restassured.response.Response;
 import models.Case;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import static org.testng.Assert.*;
@@ -16,8 +16,8 @@ public class TestCaseApiTests extends BaseApiTest {
     private Case testCase;
     private TestCaseController testCaseController;
 
-    @BeforeTest
-    private void initCase() {
+    @BeforeMethod(alwaysRun = true)
+    protected void initCase() {
         testCaseController = new TestCaseController();
         testCase = Case.builder()
                 .title(TEST_CASE_TITLE)
@@ -28,7 +28,6 @@ public class TestCaseApiTests extends BaseApiTest {
                 .getBody()
                 .jsonPath()
                 .getInt("result.id");
-
         testCase.setId(caseId);
     }
 
@@ -38,7 +37,6 @@ public class TestCaseApiTests extends BaseApiTest {
                 .title(TEST_CASE_TITLE)
                 .description(TEST_CASE_DESCRIPTION)
                 .build();
-
         Response response = testCaseController.addTestCase(PROJECT_CODE, newTestCase);
         boolean status = response.getBody()
                 .jsonPath()
@@ -68,7 +66,6 @@ public class TestCaseApiTests extends BaseApiTest {
                 .id(caseId)
                 .description(TEST_CASE_DESCRIPTION)
                 .build();
-
         testCaseController.updateTestCase(PROJECT_CODE, caseId, newTestCase.getTitle());
         Response getResponse = testCaseController.getTestCase(PROJECT_CODE, caseId);
         Case actualTestCase = getResponse

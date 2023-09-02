@@ -51,7 +51,7 @@ public class CreateSuitePage extends BasePage {
     }
 
     @Step
-    public void clickCreateSuiteButton(){
+    public void clickCreateSuiteButton() {
         driver.findElement(createSuiteButtonLocator).click();
     }
 
@@ -64,7 +64,7 @@ public class CreateSuitePage extends BasePage {
     }
 
     @Step
-    public void clickCreateNewSuiteButton(){
+    public void clickCreateNewSuiteButton() {
         driver.findElement(createNewSuiteButtonLocator).click();
     }
 
@@ -74,12 +74,13 @@ public class CreateSuitePage extends BasePage {
     }
 
     @Step
-    public void clickEditSuiteButtonIcon(){
+    public void clickEditSuiteButtonIcon() {
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("HW_badge")));
         driver.findElement(editSuiteIconLocator).click();
     }
 
     @Step
-    public void clickSaveChangesSuiteButton(){
+    public void clickSaveChangesSuiteButton() {
         driver.findElement(saveEditedSuiteButtonLocator).click();
     }
 
@@ -89,12 +90,13 @@ public class CreateSuitePage extends BasePage {
     }
 
     @Step
-    public void clickDeleteSuiteButtonIcon(){
+    public void clickDeleteSuiteButtonIcon() {
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("HW_badge")));
         driver.findElement(deleteSuiteIconLocator).click();
     }
 
     @Step
-    public void clickDeleteSuiteButton(){
+    public void clickDeleteSuiteButton() {
         driver.findElement(deleteSuiteButtonLocator).click();
     }
 
@@ -124,6 +126,7 @@ public class CreateSuitePage extends BasePage {
         }
         return false;
     }
+
     @Step("Checking the existence and visibility of the suite with title '{suiteTitle}'")
     public boolean isSuiteExistAndDisplayed(String suiteTitle) {
         List<WebElement> suitesList = driver.findElements(allSuites);

@@ -11,7 +11,6 @@ public class DefectController extends BaseController {
 
         super();
     }
-
     public Response addDefect(String projectCode, Defect defect) {
         return  given()
                 .body(defect, ObjectMapperType.GSON)
@@ -37,7 +36,7 @@ public class DefectController extends BaseController {
     public Response updateDefect(String projectCode, int defectId, String newTitle) {
         return given()
                 .when()
-                .body(String.format("{'title':'%s''}", newTitle))
+                .body(String.format("{'title':'%s'}", newTitle))
                 .patch("v1/defect/" + projectCode + "/" + defectId)
                 .then()
                 .log().all()
